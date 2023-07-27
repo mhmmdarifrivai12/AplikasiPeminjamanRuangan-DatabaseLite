@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Peminjaman Ruangan</string>
+
+    <string-array name="gedung_options">
+        <item>Gedung A</item>
+        <item>Gedung B</item>
+        <item>Gedung GSG</item>
+        <item>Gedung FSIP</item>
+        <item>Gedung ICT</item>
+    </string-array>
+</resources>

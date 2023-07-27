@@ -1,0 +1,88 @@
+<!-- activity_profile.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gardient"
+    android:gravity="center"
+    tools:context=".Profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtUsernamee"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:background="@drawable/border_text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppinsbold"
+        android:text=""
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtNo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Nomor Telpon" />
+
+    <TextView
+        android:id="@+id/txtNotelp"
+        android:background="@drawable/border_text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppinsbold"
+        android:text=""
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:background="@drawable/border_text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppinsbold"
+        android:text=""
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
